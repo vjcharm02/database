@@ -7,6 +7,7 @@
 </head>
 <body>
 
+<h2> Welcome to Alter </h2>
 <form class="form-inline" action="/database_war/api/myresource/update" method="POST">
     <label>To Update Data Base</label><br><br>
     <label>Enter ID : </label><br>

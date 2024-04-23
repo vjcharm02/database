@@ -109,6 +109,11 @@ public class MyResource {
                 String str= rs.getString("id");
 
                 if(str.equals(t)){
+                    if(design.isEmpty() || dept.isEmpty()){
+                        return "Nothing to updated.  Old data retained ";
+                    }
+
+
 
                     if(design.isEmpty() == false){
                         PreparedStatement ps1= conn.prepareStatement("UPDATE data SET Designation = ? WHERE Id = ?");
