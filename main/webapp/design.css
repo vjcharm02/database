@@ -1,0 +1,76 @@
+h2 {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+
+}
+
+body{
+    background : whitesmoke;
+}
+
+label {
+    font-family: "Comic Sans MS", cursive;
+}
+
+input[type="text"], input[type="number"] {
+    background: lightblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+input[type="submit"] {
+    background-color: lightgreen;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+form {
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: white;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-inline {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: inline-block;
+    width: 50%;
+    margin-right: 50px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
